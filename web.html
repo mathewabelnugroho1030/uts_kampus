@@ -15,9 +15,8 @@
 		<!-- Koleksi CSS -->
 		<link href="assets/bootstrap.min.css" rel="stylesheet" media="screen">
 		<link rel="stylesheet" type="text/css" href="assets/sticky-footer.css" media="all" />
-		<link rel="stylesheet" type="text/css" href="aset/paket/css/icons.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="assets/icons.css" media="all" />
 		<link rel="stylesheet" type="text/css" href="assets/animate.css" media="all" />
-		<link rel="stylesheet" type="text/css" href="aset/paket/css/animate.css" media="all" />
 		<link rel="stylesheet" type="text/css" href="assets/onebyone.css" media="all" />
 		<link href="assets/utama.css" rel="stylesheet" />
 
@@ -29,8 +28,8 @@
 			<header id="header">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-4 kiri">
-							<strong class="logo"><img src="assets/logo sabda.png" width="100" height="100">
+						<div class="logo">
+							<img src="assets/logo sabda.png" alt="Logo"width="100" height="100">
 						</div>
 						<div class="col-sm-8 kanan">
 
@@ -124,72 +123,20 @@
 					</div>
 				</div>
 
-			
-
-					<div class="mySlides fade">
-						<div class="numbertext">1 / 10</div>
-						<img src="assets/image.png" style="width:100%" >
-						<div class="text">Caption one</div>
-					  </div>
-					  
-					  <div class="mySlides fade">
-						<div class="numbertext">2 / 10</div>
-						<img src="assets/logo sabda.png" style="width:100%">
-						<div class="text">Caption Two</div>
-					  </div>
-					  
-					  <div class="mySlides fade">
-						<div class="numbertext">3 / 10</div>
-						<img src="assets/gedung.jpeg" style="width:100%">
-						<div class="text">Caption Three</div>
-					  </div>
-					  
-					</div>
-					<br>
-					
-					<div style="text-align:center">
-					  <span class="dot"></span> 
-					  <span class="dot"></span> 
-					  <span class="dot"></span> 
-					  <span class="dot"></span> 
-					  <span class="dot"></span> 
-					  <span class="dot"></span> 
-					  <span class="dot"></span> 
-					  <span class="dot"></span>
-					  <span class="dot"></span>
-					  <span class="dot"></span>   
-					  
-					</div>
-					
-					
-					<script>
-					var slideIndex = 0;
-					showSlides();
-					
-					function showSlides() {
-					  var i;
-					  var slides = document.getElementsByClassName("mySlides");
-					  var dots = document.getElementsByClassName("dot");
-					  for (i = 0; i < slides.length; i++) {
-						slides[i].style.display = "none";  
-					  }
-					  slideIndex++;
-					  if (slideIndex > slides.length) {slideIndex = 1}    
-					  for (i = 0; i < dots.length; i++) {
-						dots[i].className = dots[i].className.replace(" active", "");
-					  }
-					  slides[slideIndex-1].style.display = "block";  
-					  dots[slideIndex-1].className += " active";
-					  setTimeout(showSlides, 3000);
-					}
-					</script>
+			<div class="holder">
+						<div class="container">
+							<div class="jumbotron">
+								<h2 class="text-center" style="font-family:Open Sans">Oops! Halaman tidak ditemukan.</h2>
+								<figure class="hold-img text-center"><img src="assets/image.png" alt="image" width="750" height="500"></figure>
+								<p class="text-center">Sepertinya yang sedang Anda cari tidak ditemukan. Coba manfaatkan fasilitas pencarian berikut?</p>
+							</div>
 					  
 					
 								<p class="text-center"></p>
 							</div>
 							<div class="row">
 								<div class="col-sm-6 col-sm-offset-3">
-									<form action="404.html">
+									<form action="">
 										<fieldset>
 											<div class="field-search field-large">
 												<input type="text" class="form-control" value="">
